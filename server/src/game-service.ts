@@ -1,10 +1,6 @@
 import axios from 'axios';
 import { response } from 'express';
 
-// Consts
-const CLIENT_ID: string = 'bjequgi11fqs17m4jnf6gw6t0bomi9';
-const AUTHORIZATION: string = 'Bearer 16s6191dxznnri6ujpl8ccb8atjk7r';
-
 class GameService {
   Carousel(offset: number) {
     return new Promise((resolve, reject) => {
